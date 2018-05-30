@@ -452,7 +452,7 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 
 <h5> What we got? </h5>
 
-<img src="https://viber.github.io/docs/img/keyboard_example_restaurant1.png" height="90%" />
+<img src="https://viber.github.io/docs/img/keyboard_example_restaurant1.png" height="50%" />
 
 +++
 
