@@ -487,14 +487,14 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 ![](https://thumbs.gfycat.com/ShoddyMilkyCrownofthornsstarfish-size_restricted.gif)
 
 +++
-<img src="https://viber.github.io/docs/img/keyboard_example_restaurant1.png" width="35%" />
-<img src="https://viber.github.io/docs/img/keyboard_example_restaurant2.png" width="35%" />
 
+<img src="https://viber.github.io/docs/img/keyboard_example_restaurant2.png" width="35%" />
+<img src="https://viber.github.io/docs/img/keyboard_example_restaurant3.png" width="35%" />
 +++
 
-<img src="https://viber.github.io/docs/img/keyboard_example_restaurant3.png" width="35%" />
-<img src="https://viber.github.io/docs/img/keyboard_example_games1.png" width="35%" />
 
+<img src="https://viber.github.io/docs/img/keyboard_example_games1.png" width="35%" />
+<img src="https://developers.viber.com/docs/img/keyboard_example_commerce.png" width="35%" />
 +++
 
 <img src="https://viber.github.io/docs/img/keyboard_example_games2.png" width="35%" />
