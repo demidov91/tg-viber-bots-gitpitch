@@ -274,7 +274,13 @@ elif isinstance(viber_request, ViberFailedRequest):
 
 <h5> Quote from official docs </h5>
 
+@ul
+ * User opens 1-on-1 conversation with account.
+ * Viber server send `conversation_started` even to PA’s webhook.
+ * The account receives the `conversation_started` and **responds** with an HTTP response which includes the welcome message as the **response body**.
+ * ...
  * An example welcome message would look like this:
+@ulend 
 
 ```
 @app.route('/', methods=['POST'])
@@ -288,6 +294,7 @@ def incoming():
 
 	   return Response(status=200)
 ```
+@[10]
 
 +++
 
@@ -296,17 +303,17 @@ def incoming():
 @div[left-50]
 <h1>tg</h1>
 @ul
- - not customizable 
- - text button vs inline button
+ - Not customizable 
+ - Text button vs inline button
 @ulend
 @divend
 
 @div[right-50]
 <h1>viber</h1>
 @ul
- * infinite customization
- * text-AND-callback buttons
- * hide text input
+ * Infinite customization
+ * Text-AND-callback buttons
+ * Hide text input
 @ulend
 @divend
 
