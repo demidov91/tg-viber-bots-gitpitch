@@ -30,16 +30,19 @@
 @[how-to-communicate]
 @div[left-50]
 <h1>tg</h1>
-
- * callback
- * response
- * long poll
-
+@ul
+ - callback
+ - response
+ - long poll
+@ulend
 @divend
 
 @div[right-50]
 <h1>viber</h1>
-callback only (almost only...)
+@ul
+ * callback only 
+ * (almost only...)
+@ulend
 
 @divend
 
