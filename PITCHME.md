@@ -521,5 +521,6 @@ That was only buttons. But I told nothing about **rich-media** messages...
 
 ![](https://image.ibb.co/dxO2Cd/escobar_2.jpg)
 
-<h6>Viber: https://mm.pautuzin.by/viber</h6>
-<h6>Tg: @mogminskbot</h6>
+Viber: https://mm.pautuzin.by/viber
+
+Tg: @mogminskbot
