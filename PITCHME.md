@@ -13,35 +13,35 @@
 
 @[Bot Father vs Web-Mobile-Nothing]
 
-<div class="left">
+<span class="left">
   
 ## tg. Is it updated?
 
 ### Bot Father
 
-</div>
-<div class="right">
+</span>
+<span class="right">
 
 ## viber
 
 ### Web-Mobile-Nothing
-</div>
+</span>
 
 ---
 
 @[https]
 
-<div class="left">
+<span class="left">
 
 ## tg
 
 ### Self-signed certificate
-</div>
-<div class="right">
+</span>
+<span class="right">
 
 ## viber
 
 ### CA
-</div>
+</span>
 
 ---
