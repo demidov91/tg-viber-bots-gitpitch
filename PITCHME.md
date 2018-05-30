@@ -275,8 +275,6 @@ elif isinstance(viber_request, ViberFailedRequest):
 <h5> Quote from official docs </h5>
 
 @ul
- * User opens 1-on-1 conversation with account.
- * Viber server send `conversation_started` even to PA’s webhook.
  * The account receives the `conversation_started` and **responds** with an HTTP response which includes the welcome message as the **response body**.
  * ...
  * An example welcome message would look like this:
