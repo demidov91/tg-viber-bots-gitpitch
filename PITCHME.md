@@ -20,7 +20,7 @@
 
 @divend
 
-@div[left-50]
+@div[right-50]
 <h1>viber</h1>
 <h2>CA</h2>
 @divend
