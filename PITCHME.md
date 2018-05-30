@@ -56,4 +56,28 @@
 @ulend
 
 @divend
+
++++
+
+@[client]
+
+<h2>How to use it?</h2>
+
+@div[left-50]
+<h1>tg</h1>
+@ul
+ - mobile
+ - desktop
+ - web
+@ulend
+@divend
+
+@div[right-50]
+<h1>viber</h1>
+@ul
+ * mobile
+ * only  
+@ulend
+@divend
+
 +++
