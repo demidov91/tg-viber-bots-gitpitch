@@ -223,10 +223,31 @@ Location
 
 +++
 
-Also `Picture`, `Video`, `URL`, `Sticker` and `rich-media` 
+Also `Picture`, `Video`, `URL`, `Sticker` and `rich-media`
 
-![Rich media example](https://developers.viber.com/docs/img/rest_rich_messages.jpg)
++++
 
+<h5> How do they propose to handle it with python? </h5>
+
+```
+# this library supplies a simple way to receive a request object
+viber_request = viber.parse_request(request.get_data())
+
+if isinstance(viber_request, ViberMessageRequest):
+    message = viber_request.message
+    # lets echo back
+    viber.send_messages(viber_request.sender.id, [
+        message
+    ])
+elif isinstance(viber_request, ViberSubscribedRequest):
+    viber.send_messages(viber_request.get_user.id, [
+        TextMessage(text="thanks for subscribing!")
+    ])
+elif isinstance(viber_request, ViberFailedRequest):
+    logger.warn("client failed receiving message. failure: {0}".format(viber_request))
+```
+@[1-2]
+@[10]
 
 +++
 
@@ -248,6 +269,25 @@ Also `Picture`, `Video`, `URL`, `Sticker` and `rich-media`
  * requests.post
 @ulend
 @divend
+
++++
+
+<h5> Quote from official docs </h5>
+
+ * An example welcome message would look like this:
+
+```
+@app.route('/', methods=['POST'])
+def incoming():
+	   viber_request = viber.parse_request(request.get_data())
+
+	   if isinstance(viber_request, ViberConversationStartedRequest) :
+		      viber.send_messages(viber_request.get_user().get_id(), [
+			         TextMessage(text="Welcome!")
+		      ])
+
+	   return Response(status=200)
+```
 
 +++
 
