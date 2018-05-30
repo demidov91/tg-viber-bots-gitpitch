@@ -10,7 +10,7 @@
 <h2>Web-Mobile-Nothing</h2>
 @divend
 
----
++++
 
 @[https]
 
@@ -25,25 +25,27 @@
 <h2>CA</h2>
 @divend
 
----
++++
 
 @[how-to-communicate]
 @div[left-50]
 <h1>tg</h1>
+
 @ul
  - callback
  - response
  - long poll
 @ulend
+
 @divend
 
 @div[right-50]
 <h1>viber</h1>
+
 @ul
  * callback only 
- * (almost only...)
+ * almost only...
 @ulend
 
 @divend
-
------
++++
