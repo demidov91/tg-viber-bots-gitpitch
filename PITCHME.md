@@ -152,10 +152,6 @@
 
 +++
 
-<h4>Viber message types</h4>
-
-@div[left-50]
-
 Text
 
 ```
@@ -169,6 +165,8 @@ Text
 }
 ```
 @[6-7]
+
++++
 
 File
 
@@ -185,9 +183,8 @@ File
 }
 ```
 @[6-9]
-@divend
 
-@div[right-50]
++++
 
 Contact
 
@@ -206,6 +203,8 @@ Contact
 ```
 @[6-10]
 
++++
+
 Location
 
 ```
@@ -222,8 +221,6 @@ Location
 }
 ```
 @[6-11]
-
-@divend
 
 +++
 
