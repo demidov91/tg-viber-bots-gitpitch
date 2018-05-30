@@ -494,8 +494,18 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 +++
 
 That was only buttons. But I told nothing about **rich-media** messages...
+
 ![](https://developers.viber.com/docs/img/rest_rich_messages.jpg)
-+++
+
+---
+
+<h4>Comparing</h4>
+<h2>Telegram and Viber</h3>
+<h4>bots</h4>
+
+![](https://image.ibb.co/dxO2Cd/escobar_2.jpg)
+
+
 
 
 
