@@ -452,7 +452,7 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 
 <h5> What we got? </h5>
 
-<img src="https://viber.github.io/docs/img/keyboard_example_restaurant1.png" width="45%" />
+<img src="https://viber.github.io/docs/img/keyboard_example_restaurant1.png" width="30%" />
 
 +++
 
@@ -487,18 +487,18 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 ![](https://thumbs.gfycat.com/ShoddyMilkyCrownofthornsstarfish-size_restricted.gif)
 
 +++
-<img src="https://viber.github.io/docs/img/keyboard_example_restaurant1.png" width="45%" />
-<img src="https://viber.github.io/docs/img/keyboard_example_restaurant2.png" width="45%" />
+<img src="https://viber.github.io/docs/img/keyboard_example_restaurant1.png" width="35%" />
+<img src="https://viber.github.io/docs/img/keyboard_example_restaurant2.png" width="35%" />
 
 +++
 
-<img src="https://viber.github.io/docs/img/keyboard_example_restaurant3.png" width="45%" />
-<img src="https://viber.github.io/docs/img/keyboard_example_games1.png" width="45%" />
+<img src="https://viber.github.io/docs/img/keyboard_example_restaurant3.png" width="35%" />
+<img src="https://viber.github.io/docs/img/keyboard_example_games1.png" width="35%" />
 
 +++
 
-<img src="https://viber.github.io/docs/img/keyboard_example_games2.png" width="45%" />
-<img src="https://viber.github.io/docs/img/keyboard_example_news.png" width="45%" />
+<img src="https://viber.github.io/docs/img/keyboard_example_games2.png" width="35%" />
+<img src="https://viber.github.io/docs/img/keyboard_example_news.png" width="35%" />
 
 +++
 
