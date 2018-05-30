@@ -3,10 +3,12 @@
   float: left;
   width: 50%;
   text-align: left;
+  display: block;
 }
 .right{
   float: right;
   width: 50%;
+  display: block;
 }
 </style>
 
