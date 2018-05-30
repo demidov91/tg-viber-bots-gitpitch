@@ -143,12 +143,12 @@
    "text":"Hello world!"
 }
 ```
-@[1]
 @[2]
-@[3-6]
-@[7]
+@[3]
+@[4-7]
 @[8]
 @[9]
+@[10]
 
 +++
 
@@ -157,7 +157,8 @@
 @div[left-50]
 
 Text
-```json
+
+```
 {
    "receiver":"01234567890A=",
    "sender":{
@@ -167,9 +168,10 @@ Text
    "text":"Hello world!"
 }
 ```
-@[5-6]
+@[6-7]
 
 File
+
 ```
 {  
    "receiver":"01234567890A=",
@@ -182,11 +184,13 @@ File
    "file_name":"name_of_file.doc"
 }
 ```
-@[5-8]
+@[6-9]
 @divend
 
 @div[right-50]
+
 Contact
+
 ```
 {
    "receiver":"01234567890A=",
@@ -200,9 +204,10 @@ Contact
    }
 }
 ```
-@[5-9]
+@[6-10]
 
 Location
+
 ```
 {
    "receiver":"01234567890A=",
@@ -216,7 +221,8 @@ Location
    }
 }
 ```
-@[5-10]
+@[6-11]
+
 @divend
 
 +++
