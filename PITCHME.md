@@ -126,8 +126,7 @@
 @ulend
 @divend
 
-
----
++++
 
 <h4>Message example</h4>
 ```
@@ -228,7 +227,53 @@ Also `Picture`, `Video`, `URL`, `Sticker` and `rich-media`
 
 ![Rich media example](https://developers.viber.com/docs/img/rest_rich_messages.jpg)
 
+
++++
+
+<h4>Viber, why?</h4>
+
+@div[left-50]
+<h1>tg</h1>
+@ul
+ - Bot Father message
+ - 
+ - Reusable connection in python client
+@ulend
+@divend
+
+@div[right-50]
+<h1>viber</h1>
+@ul
+ * Response message
+ * <b>user</b> keyword instead of <b>sender</b>
+ * requests.post
+@ulend
+@divend
+
++++
+
+<h2>Keyboards</h2>
+
+@div[left-50]
+<h1>tg</h1>
+@ul
+ - not customizable 
+ - text button vs inline button
+@ulend
+@divend
+
+@div[right-50]
+<h1>viber</h1>
+@ul
+ * infinite customization
+ * text-AND-callback buttons
+ * hide text input
+@ulend
+@divend
+
 ---
+
+
 
 
 
