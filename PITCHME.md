@@ -106,7 +106,7 @@
 
 +++
 
-@[sender-receiver]
+@[Documentation]
 
 <h2>Documentation</h2>
 
@@ -130,7 +130,7 @@
 
 +++
 
-<h4>Outcomming message example</h4>
+<h4>Outcomming example</h4>
 ```
 {
    "receiver":"01234567890A=",
@@ -366,6 +366,7 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 ![](https://rate.pautuzin.by/static/viber_intro.gif?v=2)
 
 ---
+@[Keyboards]
 
 <h2>Keyboards</h2>
 
@@ -387,5 +388,108 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 @divend
 
 +++
+
+<h5>(Almost) minimal example</h5>
+```
+{
+   "receiver":"01234567890A=",
+   "type":"text",
+   "text":"Hello world",
+   "keyboard":{
+      "Type":"keyboard",
+      "Buttons":[
+         {
+            "ActionType":"reply",
+            "ActionBody":"reply to me",
+            "Text":"Key text",
+         }
+      ]
+   }
+}
+```
+@[10]
+@[11]
+
++++
+
+<h5> Buttons grid </h5>
+
+![](https://image.ibb.co/kRZ4ay/Screenshot_from_2018_05_30_18_14_05.png)
+
++++
+
+<h5> Do anything you want </h5>
+
+```
+{
+	"Type": "keyboard",
+	"Buttons": [{
+		"Columns": 3,
+		"Rows": 2,
+		"Text": "<font color=\"#494E67\">Smoking</font><br><br>",
+		"TextSize": "medium",
+		"TextHAlign": "center",
+		"TextVAlign": "bottom",
+		"ActionType": "reply",
+		"ActionBody": "Smoking",
+		"BgColor": "#f7bb3f",
+		"Image": "https: //s12.postimg.org/ti4alty19/smoke.png"
+	}, {
+		"Columns": 3,
+		"Rows": 2,
+		...
+	}
+```
+@[4,5]
+@[6]
+@[7]
+@[8]
+@[9-10]
+@[11]
+@[12]
+
++++
+
+![](https://viber.github.io/docs/img/keyboard_example_restaurant1.png)
+
++++
+
+<h5> For example... </h5>
+
+* BgColor
+* BgMedia
+* BgLoop
+* TextVAlign/TextHAlign
+* TextPaddings
+* TextOpacity
+* TextSize
+* OpenURLType (internal, external)
+* OpenURLMediaType (not-media , video , gif , picture)
+
++++
+
+<h5> And most important </h5>
+
+* ActionType (reply, open-url, location-picker, share-phone, none)
+* ActionBody
+ 
++++
+
+![](https://thumbs.gfycat.com/ShoddyMilkyCrownofthornsstarfish-size_restricted.gif)
+
++++
+
+![](https://viber.github.io/docs/img/keyboard_example_restaurant2.png)
+![](https://viber.github.io/docs/img/keyboard_example_restaurant3.png)
+![](https://viber.github.io/docs/img/keyboard_example_games1.png)
+![](https://viber.github.io/docs/img/keyboard_example_games2.png)
+![](https://viber.github.io/docs/img/keyboard_example_news.png)
+
++++
+
+That was only buttons. But I told nothing about **rich-media** messages...
+![](https://developers.viber.com/docs/img/rest_rich_messages.jpg)
++++
+
 
 
