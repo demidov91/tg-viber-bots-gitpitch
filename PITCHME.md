@@ -28,13 +28,16 @@
 +++
 
 @[how-to-communicate]
+
+<h2>Communication</h2>
+
 @div[left-50]
 <h1>tg</h1>
 
 @ul
- - callback
- - response
- - long poll
+ - webhook -> response
+ - webhook -> callback
+ - long poll -> callback
 @ulend
 
 @divend
@@ -43,7 +46,8 @@
 <h1>viber</h1>
 
 @ul
- * callback only 
+ * webhook -> callback 
+ * only 
  * almost only...
 @ulend
 
