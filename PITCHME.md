@@ -1,9 +1,7 @@
 @[Bot Father vs Web-Mobile-Nothing]
 
 @div[left-50]
-<img src="https://ih1.redbubble.net/image.192266190.8415/flat,1000x1000,075,f.jpg" width="10%" />
-
-
+<h1>tg</h1>
 <h2>Bot Father</h2>
 @divend
 
