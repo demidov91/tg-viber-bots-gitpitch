@@ -130,7 +130,7 @@
 
 +++
 
-<h4>Message example</h4>
+<h4>Outcomming message example</h4>
 ```
 {
    "receiver":"01234567890A=",
@@ -150,6 +150,33 @@
 @[8]
 @[9]
 @[10]
+
++++
+
+<h4>Incomming example</h4>
+```
+{
+   "event":"message",
+   "timestamp":1457764197627,
+   "message_token":4912661846655238145,
+   "sender":{
+      "id":"01234567890A=",
+      "name":"John McClane",
+      "avatar":"http://avatar.example.com",
+      "country":"UK",
+      "language":"en",
+      "api_version":1
+   },
+   "message":{
+      "type":"text",
+      "text":"a message to the service",      
+      "tracking_data":"tracking data"
+   }
+}
+```
+@[2,15,16]
+@[6]
+@[17]
 
 +++
 
