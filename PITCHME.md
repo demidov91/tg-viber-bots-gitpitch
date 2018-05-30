@@ -120,14 +120,14 @@
 @div[right-50]
 <h1>viber</h1>
 @ul
- * ad hoc
+ * ad hoc (?)
  * non-browsable
  * different types of message (as declared)
 @ulend
 @divend
 
 
-+++
+---
 
 <h4>Message example</h4>
 ```
@@ -223,5 +223,13 @@ Location
 @[6-11]
 
 +++
+
+Also `Picture`, `Video`, `URL`, `Sticker` and `rich-media` 
+
+![Rich media example](https://developers.viber.com/docs/img/rest_rich_messages.jpg)
+
+---
+
+
 
 
