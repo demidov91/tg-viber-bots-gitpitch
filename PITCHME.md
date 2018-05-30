@@ -1,33 +1,16 @@
-<style>
-.left{
-  float: left;
-  width: 50%;
-  text-align: left;
-  display: block;
-}
-.right{
-  float: right;
-  width: 50%;
-  display: block;
-}
-</style>
-
-
 @[Bot Father vs Web-Mobile-Nothing]
 
-<span class="left">
-  
-## tg. Is it updated?
+@div[left-50]
+## tg. 
 
 ### Bot Father
+@divend
 
-</span>
-<span class="right">
-
+@div[right-50]
 ## viber
 
 ### Web-Mobile-Nothing
-</span>
+@divend
 
 ---
 
