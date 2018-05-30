@@ -1,3 +1,20 @@
+<h1>Comparison of Telegram and Viber bots</h1>
+
++++
+
+@[intro]
+<h2>Why bot?</h2>
+
+ * Mobile app is too heavy solution.
+ * It is not getting lost when using it one a month.
+ * It knows your phone number.
+ 
+---
+
+<h1>Configuration</h1>
+
+---
+
 @[Bot Father vs Web-Mobile-Nothing]
 
 <h2>Create it!</h2>
@@ -80,4 +97,10 @@
 @ulend
 @divend
 
+---
+
+<h1>API</h1>
+
 +++
+
+
