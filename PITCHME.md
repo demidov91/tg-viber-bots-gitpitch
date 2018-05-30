@@ -508,7 +508,7 @@ That was only buttons. But I told nothing about **rich-media** messages...
 
 +++
 
-![](www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F17a6f7d6-1579-11e8-a427-78e8af199a96.jpg?crop=3066%2C1725%2C0%2C160&resize=685)
+![](http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F17a6f7d6-1579-11e8-a427-78e8af199a96.jpg?crop=3066%2C1725%2C0%2C160&resize=685)
 
 ---
 
