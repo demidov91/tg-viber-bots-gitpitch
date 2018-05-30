@@ -1,12 +1,5 @@
-@div[left-30]
-Telegram
-@divend
-
-![width=10%](https://image.ibb.co/dxO2Cd/escobar_2.jpg)
-
-@div[right-30]
-Viber
-@divend
+<h4>Comparing</h4>
+<h2>Telegram and Viber</h3>
 
 ---
 
