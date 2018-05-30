@@ -280,6 +280,8 @@ elif isinstance(viber_request, ViberFailedRequest):
  * An example welcome message would look like this:
 @ulend 
 
++++
+
 ```
 @app.route('/', methods=['POST'])
 def incoming():
@@ -293,6 +295,46 @@ def incoming():
 	   return Response(status=200)
 ```
 @[10]
+
++++
+
+<h5> What it really looks like </h5>
+
+```
+if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
+    if not remote_update.subscribed:
+	return web.json_response({
+	    'text': _('This is a bot for booking Mogilev-Minsk minibusses.\n'
+		      'Choose the date, time and book your trip!\n'
+		      'Notice:\n\U0001f690 - bookable directly from bot.\n'
+		      '\U0001f4de - you have to make a call to book your trip.\n'),
+	    'type': 'text',
+	    'min_api_version': 4,
+	    "keyboard": {
+		"Type": "keyboard",
+		'InputFieldState': 'hidden',
+		"Buttons": [{
+			"ActionType": "open-url",
+			"ActionBody": "https://rate.pautuzin.by/static/viber_intro.gif?v=2",
+			"Text": _("Take a quick animated tour"),
+			'OpenURLMediaType': 'gif',
+		     },
+		],
+	    },
+      }, dumps=lazy_string_aware_json_dumps)
+```
+@[2]
+@[4-7]
+@[8]
+@[9]
+@[10-20]
+@[12]
+@[14,17]
+@[15-16]
+
++++
+
+![](https://rate.pautuzin.by/static/viber_intro.gif?v=2)
 
 +++
 
