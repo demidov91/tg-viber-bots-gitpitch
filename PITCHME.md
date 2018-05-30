@@ -1,4 +1,12 @@
-<h1>Comparison of Telegram and Viber bots</h1>
+@div[left-30]
+Telegram
+@divend
+
+![width=10%](https://image.ibb.co/dxO2Cd/escobar_2.jpg)
+
+@div[right-30]
+Viber
+@divend
 
 ---
 
@@ -336,7 +344,7 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 
 ![](https://rate.pautuzin.by/static/viber_intro.gif?v=2)
 
-+++
+---
 
 <h2>Keyboards</h2>
 
@@ -357,10 +365,6 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 @ulend
 @divend
 
----
-
-
-
-
++++
 
 
