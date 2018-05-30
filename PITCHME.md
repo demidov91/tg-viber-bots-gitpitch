@@ -454,6 +454,11 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 
 +++
 
+<img src="Screenshot_2018-05-30-17-49-20_com.viber.voip_1527691802171.jpg" width="45%" />
+<img src="Screenshot_2018-05-30-17-49-20_com.viber.voip_1527691802171.jpg" width="45%" />
+
++++
+
 <h5> For example... </h5>
 
 * BgColor
