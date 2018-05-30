@@ -1,7 +1,7 @@
 @[Bot Father vs Web-Mobile-Nothing]
 
 @div[left-50]
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="10%" />
+<img src="https://ih1.redbubble.net/image.192266190.8415/flat,1000x1000,075,f.jpg" width="10%" />
 
 
 <h2>Bot Father</h2>
