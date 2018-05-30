@@ -236,7 +236,6 @@ Also `Picture`, `Video`, `URL`, `Sticker` and `rich-media`
 <h1>tg</h1>
 @ul
  - Bot Father message
- - 
  - Reusable connection in python client
 @ulend
 @divend
