@@ -407,12 +407,12 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
    }
 }
 ```
+@[9,11]
 @[10]
-@[11]
 
 +++
 
-<h5> Buttons grid </h5>
+<h5> Button grid </h5>
 
 ![](https://image.ibb.co/kRZ4ay/Screenshot_from_2018_05_30_18_14_05.png)
 
@@ -443,10 +443,10 @@ if remote_update.event == defines.EVENT_TYPE_CONVERSATION_STARTED:
 @[4,5]
 @[6]
 @[7]
-@[8]
-@[9-10]
-@[11]
+@[8-9]
+@[10-11]
 @[12]
+@[13]
 
 +++
 
