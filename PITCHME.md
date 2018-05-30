@@ -1,15 +1,19 @@
 @[Bot Father vs Web-Mobile-Nothing]
 
 @div[left-50]
+
 ## tg. 
 
 ### Bot Father
+
 @divend
 
 @div[right-50]
+
 ## viber
 
 ### Web-Mobile-Nothing
+
 @divend
 
 ---
