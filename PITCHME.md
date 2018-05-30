@@ -1,7 +1,9 @@
 @[Bot Father vs Web-Mobile-Nothing]
 
 @div[left-50]
-<h1>tg</h1> 
+<img src="https://telegram.org/favicon.ico" />
+
+
 <h2>Bot Father</h2>
 @divend
 
