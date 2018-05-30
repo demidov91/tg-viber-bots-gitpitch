@@ -1,8 +1,8 @@
 @[Bot Father vs Web-Mobile-Nothing]
 
 @div[left-50]
-<h1>tg</h1>
-<h2>Bot Father</h2>
+<h3>tg</h3>
+<h4>Bot Father</h4>
 @divend
 
 @div[right-50]
