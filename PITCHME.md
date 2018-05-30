@@ -14,11 +14,16 @@
 @[Bot Father vs Web-Mobile-Nothing]
 
 <div class="left">
+  
 ## tg
+
 ### Bot Father
+
 </div>
 <div class="right">
+
 ## viber
+
 ### Web-Mobile-Nothing
 </div>
 
@@ -27,11 +32,15 @@
 @[https]
 
 <div class="left">
+
 ## tg
+
 ### Self-signed certificate
 </div>
 <div class="right">
+
 ## viber
+
 ### CA
 </div>
 
